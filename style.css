@@ -1,0 +1,67 @@
+*{
+margin: 0;
+padding:0;    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(skateboard.png);
+    background-position:center;
+    background-size:cover;
+    position: realtive;
+}
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    position:fixed;
+    
+  }
+  
+  .topnav a {
+    float:left;
+    color: #000000;
+    text-align: right;
+    padding: 18px 1px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Barrio', cursive;
+    
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(232, 235, 66);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+.paragraf1{
+    font-size: 80px;
+    padding: 190px;
+    font-family: 'Aclonica', sans-serif;
+    }
+
+  .secondpage {
+    min-height: 100vh;
+    width: 100%;
+    background-position:center;
+    background-size:cover;
+    position: realtive;
+    background-image: url(bird.jpg);
+  }
+  
+  .skateboards{
+    width:100%;
+    align-items: center;
+    padding:220px; 
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+  }
+
+  
